@@ -1,6 +1,7 @@
 import { useState } from "react";
 import InputSample from "./component/Input";
 import Problem from "./component/Problem";
+import Calculate from "./component/Calculate";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -13,10 +14,11 @@ function App() {
           setCount(count + 1);
         }}
       >
-        gdgdgd
+        gdgddfda
       </button>
       <InputSample />
       <Problem />
+      <Calculate></Calculate>
     </>
   );
 }
